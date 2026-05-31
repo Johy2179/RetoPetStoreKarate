@@ -1,0 +1,16 @@
+CONCLUSIONES Y HALLAZGOS - RETO PETSTORE
+
+1. ANÁLISIS DE CASOS DE PRUEBA
+Para cada caso (ej: Crear, Consultar, Actualizar, Eliminar), se identificaron los siguientes elementos:
+- Entradas: Payload JSON enviado en el cuerpo de la petición.
+- Salidas: Respuesta recibida (código de estado y cuerpo JSON).
+- Tests: Validaciones de esquemas y campos específicos realizados con la sintaxis 'match' de Karate.
+- Variables: Uso de variables para la parametrización de datos dinámicos.
+
+2. HALLAZGOS PRINCIPALES
+- La API de PetStore permite una validación eficiente mediante el uso de esquemas JSON.
+- Karate facilita la lectura de los resultados permitiendo identificar rápidamente cualquier discrepancia entre el esperado y el obtenido.
+- Se logró automatizar el flujo completo desde la creación hasta la eliminación del recurso, garantizando la integridad de los datos.
+
+3. EVIDENCIA DE EJECUCIÓN
+- Los resultados detallados de la ejecución se presentan en el archivo 'karate-summary.html' generado en la ruta '/target/karate-reports/', el cual se adjunta como evidencia adicional a este documento.
